@@ -1,0 +1,17 @@
+_id: env_57a3ca8aa29a4627b332c44b2a050648
+type: Environment
+parentId: env_34995ee874ce29173af19c0a1d466393b55bb1f1
+modified: 1649117040325
+created: 1649115720814
+name: Development
+data:
+  baseUrl: http://127.0.0.1:3333
+  token: bearer {% response 'body', 'req_69e9213858004ddc8b26e7c972ac9039',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}
+dataPropertyOrder:
+  "&":
+    - baseUrl
+    - token
+color: "#01e409"
+isPrivate: false
+metaSortKey: 1649115720814
