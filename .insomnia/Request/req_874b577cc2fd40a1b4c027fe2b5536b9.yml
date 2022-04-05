@@ -1,0 +1,30 @@
+_id: req_874b577cc2fd40a1b4c027fe2b5536b9
+type: Request
+parentId: fld_85a3f19a54ae48ffa8943987b3469e99
+modified: 1649117178038
+created: 1649117148624
+url: "{{ _.baseUrl }}/auth"
+name: Destroy
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_90b11ace99e9423793ab5c2b80660f68
+  - id: pair_630f44facf774ed28adda6fef377bbc1
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1649115651150
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

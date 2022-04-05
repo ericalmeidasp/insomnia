@@ -1,0 +1,31 @@
+_id: req_a30ab7064cb5483f932f39118b8c35ab
+type: Request
+parentId: fld_294136e17ee0413886d786ae6ecbd7e3
+modified: 1649118147602
+created: 1649117204537
+url: "{{ _.baseUrl }}/users/forgot"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"key":"1563948e-8c3e-47c2-b27d-1fff19c9c2b21",
+    	"password": "secret",
+    	"passwordConfirmation": "secret"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_732563c223704cf1b22aafdcf90ad082
+authentication: {}
+metaSortKey: -1649115968006.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

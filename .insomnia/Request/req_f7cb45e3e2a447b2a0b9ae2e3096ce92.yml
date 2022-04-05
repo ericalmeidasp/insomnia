@@ -1,0 +1,26 @@
+_id: req_f7cb45e3e2a447b2a0b9ae2e3096ce92
+type: Request
+parentId: fld_294136e17ee0413886d786ae6ecbd7e3
+modified: 1649117273696
+created: 1649117210671
+url: "{{ _.baseUrl }}/users/forgot/1563948e-8c3e-47c2-b27d-1fff19c9c2b21"
+name: Show
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_732563c223704cf1b22aafdcf90ad082
+authentication: {}
+metaSortKey: -1649115968031.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

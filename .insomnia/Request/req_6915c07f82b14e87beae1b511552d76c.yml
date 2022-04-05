@@ -1,0 +1,32 @@
+_id: req_6915c07f82b14e87beae1b511552d76c
+type: Request
+parentId: fld_c67076ebefd440a79f72ece789a9ec8f
+modified: 1649117182583
+created: 1649116169066
+url: "{{ _.baseUrl }}/users/register"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"key":"c42382b4-276a-43ec-9f94-a68b79efe5cd1",
+    	"name": "Éric Almeida",
+    	"password": "secret",
+    	"passwordConfirmation": "secret"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_732563c223704cf1b22aafdcf90ad082
+authentication: {}
+metaSortKey: -1649115922705.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

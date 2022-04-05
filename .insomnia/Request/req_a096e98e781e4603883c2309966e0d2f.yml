@@ -1,0 +1,30 @@
+_id: req_a096e98e781e4603883c2309966e0d2f
+type: Request
+parentId: fld_c67076ebefd440a79f72ece789a9ec8f
+modified: 1649117183287
+created: 1649116013207
+url: "{{ _.baseUrl }}/users/register"
+name: Store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"eric@g.com",
+    	"redirectUrl": "https://fb.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_732563c223704cf1b22aafdcf90ad082
+authentication: {}
+metaSortKey: -1649116013207
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

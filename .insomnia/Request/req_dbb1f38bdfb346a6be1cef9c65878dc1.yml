@@ -1,0 +1,26 @@
+_id: req_dbb1f38bdfb346a6be1cef9c65878dc1
+type: Request
+parentId: fld_c67076ebefd440a79f72ece789a9ec8f
+modified: 1649117214577
+created: 1649116132580
+url: "{{ _.baseUrl }}/users/register/c42382b4-276a-43ec-9f94-a68b79efe5cd1"
+name: Show
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_732563c223704cf1b22aafdcf90ad082
+authentication: {}
+metaSortKey: -1649115967956.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

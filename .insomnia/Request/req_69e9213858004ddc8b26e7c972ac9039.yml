@@ -1,0 +1,30 @@
+_id: req_69e9213858004ddc8b26e7c972ac9039
+type: Request
+parentId: fld_85a3f19a54ae48ffa8943987b3469e99
+modified: 1649117175542
+created: 1649115651200
+url: "{{ _.baseUrl }}/auth"
+name: Store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "eric@g.com",
+    	"password": "secret"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_90b11ace99e9423793ab5c2b80660f68
+authentication: {}
+metaSortKey: -1649115651200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
