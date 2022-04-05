@@ -1,26 +1,33 @@
-_id: req_874b577cc2fd40a1b4c027fe2b5536b9
+_id: req_ce2986c198e64ddda2089db483259638
 type: Request
-parentId: fld_85a3f19a54ae48ffa8943987b3469e99
-modified: 1649125115833
-created: 1649117148624
-url: "{{ _.baseUrl }}/auth"
-name: Destroy
+parentId: fld_2b9fe65afa36491f9ac156914022cb5f
+modified: 1649125564156
+created: 1649122801106
+url: "{{ _.baseUrl }}/users"
+name: Update
 description: ""
-method: DELETE
+method: PUT
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"name": "Éric Almeida",
+    	"username": "éric1649116269181",
+    	"email": "eric@g.com",
+    	"password": "",
+    	"passwordConfirmation": ""
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_90b11ace99e9423793ab5c2b80660f68
-  - id: pair_630f44facf774ed28adda6fef377bbc1
+  - id: pair_78af031bfb4748f3b80d8d507ebe3c8d
     name: Authorization
     value: "{{ _.token }}"
     description: ""
 authentication: {}
-metaSortKey: -1649115651150
+metaSortKey: -1649115651162.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

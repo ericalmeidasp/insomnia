@@ -1,26 +1,26 @@
-_id: req_69e9213858004ddc8b26e7c972ac9039
+_id: req_dd3d5443c34444a4a723a79d8a890076
 type: Request
-parentId: fld_85a3f19a54ae48ffa8943987b3469e99
-modified: 1649125131406
-created: 1649115651200
-url: "{{ _.baseUrl }}/auth"
-name: Store
+parentId: fld_2b9fe65afa36491f9ac156914022cb5f
+modified: 1649125566440
+created: 1649120205880
+url: "{{ _.baseUrl }}/users"
+name: Show
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"email": "eric@gg.com",
-    	"password": "secret"
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_90b11ace99e9423793ab5c2b80660f68
+  - id: pair_78af031bfb4748f3b80d8d507ebe3c8d
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
 authentication: {}
-metaSortKey: -1649115651200
+metaSortKey: -1649115651175
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
