@@ -1,0 +1,30 @@
+_id: req_a08feea501d449a1bbca5c8c2e5a5e99
+type: Request
+parentId: fld_4495f3a7a3d84887b5809d4a27436447
+modified: 1649207457708
+created: 1649207450592
+url: "{{ _.baseUrl }}/users/avatar"
+name: Destroy
+description: ""
+method: DELETE
+body:
+  mimeType: multipart/form-data
+  params: []
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_732563c223704cf1b22aafdcf90ad082
+  - id: pair_0bed1f56f0b84af8b1bb16e9a2429d50
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1649115719085.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

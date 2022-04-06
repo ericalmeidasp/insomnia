@@ -1,0 +1,36 @@
+_id: req_a8576dec5a4a48459615659b93e5711b
+type: Request
+parentId: fld_4495f3a7a3d84887b5809d4a27436447
+modified: 1649206787518
+created: 1649205992027
+url: "{{ _.baseUrl }}/users/avatar"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_a907e2113319433dae67083c2b32a70e
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/ericalmeidasp/avatar123.jpg
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_732563c223704cf1b22aafdcf90ad082
+  - id: pair_0bed1f56f0b84af8b1bb16e9a2429d50
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1649115786958.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
