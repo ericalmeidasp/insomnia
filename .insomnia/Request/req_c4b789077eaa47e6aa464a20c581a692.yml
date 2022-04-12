@@ -1,23 +1,20 @@
-_id: req_ce2986c198e64ddda2089db483259638
+_id: req_c4b789077eaa47e6aa464a20c581a692
 type: Request
-parentId: fld_2b9fe65afa36491f9ac156914022cb5f
-modified: 1649725870023
-created: 1649122801106
-url: "{{ _.baseUrl }}/users"
-name: Update
+parentId: fld_312f2bfebe764a848357fd40d98874c6
+modified: 1649726619075
+created: 1649537224721
+url: "{{ _.baseUrl }}/users/search"
+name: Index
 description: ""
-method: PUT
+method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"name": "Éric Almeida",
-    	"username": "éric1649116269181",
-    	"email": "eric@g.com",
-    	"password": "",
-    	"passwordConfirmation": ""
-    }
-parameters: []
+  text: ""
+parameters:
+  - id: pair_9bd65cafd6ca43aeb6eb715ab9fdaf21
+    name: keyword
+    value: eric A
+    description: ""
 headers:
   - name: Content-Type
     value: application/json
@@ -27,7 +24,7 @@ headers:
     value: "{{ _.token }}"
     description: ""
 authentication: {}
-metaSortKey: -1649115651200
+metaSortKey: -1649115651206.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
