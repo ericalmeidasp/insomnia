@@ -1,0 +1,33 @@
+_id: req_b9b4e4b12f204db6bb649a5953acb3b1
+type: Request
+parentId: fld_fd6ea0b44e584053ae65c7b45b888062
+modified: 1650413217335
+created: 1650412475831
+url: "{{ _.baseUrl }}/posts"
+name: Store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"description": "teste de post 2"
+    }
+parameters: []
+headers:
+  - id: pair_00afd21a4ab34e12aaf47231c7a47555
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_df536722d04c42ac8ce9baa6d67a2cf0
+authentication: {}
+metaSortKey: -1650372747228
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

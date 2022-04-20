@@ -1,26 +1,26 @@
-_id: req_dd3d5443c34444a4a723a79d8a890076
+_id: req_18378352fa184b9d9850ac61788ef663
 type: Request
-parentId: fld_2b9fe65afa36491f9ac156914022cb5f
-modified: 1650412448628
-created: 1649120205880
-url: "{{ _.baseUrl }}/users"
-name: Show
+parentId: fld_fd6ea0b44e584053ae65c7b45b888062
+modified: 1650413211815
+created: 1650413207360
+url: "{{ _.baseUrl }}/posts/2"
+name: Destroy
 description: ""
-method: GET
+method: DELETE
 body:
   mimeType: application/json
   text: ""
 parameters: []
 headers:
-  - name: Content-Type
-    value: application/json
-    id: pair_90b11ace99e9423793ab5c2b80660f68
-  - id: pair_78af031bfb4748f3b80d8d507ebe3c8d
+  - id: pair_00afd21a4ab34e12aaf47231c7a47555
     name: Authorization
     value: "{{ _.token }}"
     description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_df536722d04c42ac8ce9baa6d67a2cf0
 authentication: {}
-metaSortKey: -1649115651212.5
+metaSortKey: -1650343192198.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

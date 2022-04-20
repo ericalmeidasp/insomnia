@@ -1,0 +1,33 @@
+_id: req_2adb45fac41d49f7a5347c6baf9e953e
+type: Request
+parentId: fld_fd6ea0b44e584053ae65c7b45b888062
+modified: 1650413228989
+created: 1650413174196
+url: "{{ _.baseUrl }}/posts/3"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"description": "teste 2 de post 2"
+    }
+parameters: []
+headers:
+  - id: pair_00afd21a4ab34e12aaf47231c7a47555
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_df536722d04c42ac8ce9baa6d67a2cf0
+authentication: {}
+metaSortKey: -1650353043875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
