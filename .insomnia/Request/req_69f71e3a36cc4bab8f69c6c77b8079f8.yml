@@ -1,18 +1,15 @@
-_id: req_b9b4e4b12f204db6bb649a5953acb3b1
+_id: req_69f71e3a36cc4bab8f69c6c77b8079f8
 type: Request
-parentId: fld_fd6ea0b44e584053ae65c7b45b888062
-modified: 1650654264849
-created: 1650412475831
-url: "{{ _.baseUrl }}/posts"
-name: Store
+parentId: fld_bf484896406943b09e98e9ebd2de7e46
+modified: 1650645633996
+created: 1650644897094
+url: "{{ _.baseUrl }}/comments/5"
+name: Destroy
 description: ""
-method: POST
+method: DELETE
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"description": "teste de post 2"
-    }
+  text: ""
 parameters: []
 headers:
   - id: pair_00afd21a4ab34e12aaf47231c7a47555
@@ -23,7 +20,7 @@ headers:
     value: application/json
     id: pair_df536722d04c42ac8ce9baa6d67a2cf0
 authentication: {}
-metaSortKey: -1650372747228
+metaSortKey: -1650364127011.0625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

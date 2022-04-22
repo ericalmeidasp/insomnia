@@ -1,21 +1,19 @@
-_id: req_67f11e411fc14cceb96494fcfc110d2b
+_id: req_2ed7cbd45d2d4e95a14fef2abad99cb0
 type: Request
-parentId: fld_5643d285b5a148a1a23868609aea331c
-modified: 1650417888606
-created: 1650417777847
-url: "{{ _.baseUrl }}/posts/1/media"
+parentId: fld_bf484896406943b09e98e9ebd2de7e46
+modified: 1650654454963
+created: 1650642375734
+url: "{{ _.baseUrl }}/comments"
 name: Store
 description: ""
 method: POST
 body:
-  mimeType: multipart/form-data
-  params:
-    - id: pair_2191971dba684c59ab2cbf1f8fdce267
-      name: file
-      value: ""
-      description: ""
-      type: file
-      fileName: /home/ericalmeidasp/avatar123.jpg
+  mimeType: application/json
+  text: |-
+    {
+    	"content": "teste de comment 3",
+    	"postId": "1"
+    }
 parameters: []
 headers:
   - id: pair_00afd21a4ab34e12aaf47231c7a47555
@@ -23,10 +21,10 @@ headers:
     value: "{{ _.token }}"
     description: ""
   - name: Content-Type
-    value: multipart/form-data
+    value: application/json
     id: pair_df536722d04c42ac8ce9baa6d67a2cf0
 authentication: {}
-metaSortKey: -1650362895551.5
+metaSortKey: -1650367821389.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
