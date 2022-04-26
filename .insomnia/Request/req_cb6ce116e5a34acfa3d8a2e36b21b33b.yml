@@ -1,17 +1,18 @@
-_id: req_b9b4e4b12f204db6bb649a5953acb3b1
+_id: req_cb6ce116e5a34acfa3d8a2e36b21b33b
 type: Request
-parentId: fld_fd6ea0b44e584053ae65c7b45b888062
-modified: 1650930165954
-created: 1650412475831
-url: "{{ _.baseUrl }}/posts"
-name: Store
+parentId: fld_9681777c548d40f5bf7a837d9f50f67a
+modified: 1650934358878
+created: 1650930080881
+url: "{{ _.baseUrl }}/reactions"
+name: Update
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    	"description": "teste de post 2"
+    	"type": "haha",
+    	"postId": 1
     }
 parameters: []
 headers:
@@ -23,7 +24,7 @@ headers:
     value: application/json
     id: pair_df536722d04c42ac8ce9baa6d67a2cf0
 authentication: {}
-metaSortKey: -1650372747228
+metaSortKey: -1650365358470.625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

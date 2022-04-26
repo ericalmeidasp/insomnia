@@ -1,7 +1,7 @@
 _id: req_6915c07f82b14e87beae1b511552d76c
 type: Request
 parentId: fld_c67076ebefd440a79f72ece789a9ec8f
-modified: 1649376466239
+modified: 1650927547820
 created: 1649116169066
 url: "{{ _.baseUrl }}/users/register"
 name: Update
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"key":"694238f4-059e-4b07-b4b1-d486351fef2d4",
+    	"key":"fb87913a-52d5-47cd-8ca6-3223cc4f61491",
     	"name": "Éric Almeida",
     	"password": "secret",
     	"passwordConfirmation": "secret"

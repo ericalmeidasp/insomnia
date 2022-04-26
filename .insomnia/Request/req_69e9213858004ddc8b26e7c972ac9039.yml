@@ -1,7 +1,7 @@
 _id: req_69e9213858004ddc8b26e7c972ac9039
 type: Request
 parentId: fld_85a3f19a54ae48ffa8943987b3469e99
-modified: 1650412423451
+modified: 1650927587334
 created: 1649115651200
 url: "{{ _.baseUrl }}/auth"
 name: Store
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "eric@gg.com",
+    	"email": "eric@gmail.com",
     	"password": "secret"
     }
 parameters: []

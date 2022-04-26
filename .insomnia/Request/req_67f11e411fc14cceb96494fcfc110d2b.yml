@@ -1,7 +1,7 @@
 _id: req_67f11e411fc14cceb96494fcfc110d2b
 type: Request
 parentId: fld_5643d285b5a148a1a23868609aea331c
-modified: 1650417888606
+modified: 1650927865037
 created: 1650417777847
 url: "{{ _.baseUrl }}/posts/1/media"
 name: Store
@@ -15,7 +15,7 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: /home/ericalmeidasp/avatar123.jpg
+      fileName: C:\Users\erica\Downloads\zoe.png
 parameters: []
 headers:
   - id: pair_00afd21a4ab34e12aaf47231c7a47555
