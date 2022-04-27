@@ -1,0 +1,33 @@
+_id: req_88d4df8fe15945b380d33b6ea34c68ee
+type: Request
+parentId: fld_b6ecb01ad43d404d99067b31fe56b928
+modified: 1651018061559
+created: 1651012132686
+url: "{{ _.baseUrl }}/follow"
+name: Store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"followingId": 2
+    }
+parameters: []
+headers:
+  - id: pair_00afd21a4ab34e12aaf47231c7a47555
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_df536722d04c42ac8ce9baa6d67a2cf0
+authentication: {}
+metaSortKey: -1650365358470.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

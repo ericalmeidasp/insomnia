@@ -1,9 +1,9 @@
-_id: req_dd3d5443c34444a4a723a79d8a890076
+_id: req_0ffa774f2eb34dc99bdbc8e9de83af07
 type: Request
-parentId: fld_2b9fe65afa36491f9ac156914022cb5f
-modified: 1651012063483
-created: 1649120205880
-url: "{{ _.baseUrl }}/users"
+parentId: fld_b3313e8304994119ad1416d1a0b04bde
+modified: 1651018140250
+created: 1651013773554
+url: "{{ _.baseUrl }}/profiles/inara"
 name: Show
 description: ""
 method: GET
@@ -20,7 +20,7 @@ headers:
     value: "{{ _.token }}"
     description: ""
 authentication: {}
-metaSortKey: -1649115651212.5
+metaSortKey: -1649115651203.125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

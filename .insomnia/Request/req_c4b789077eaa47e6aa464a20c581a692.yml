@@ -1,7 +1,7 @@
 _id: req_c4b789077eaa47e6aa464a20c581a692
 type: Request
 parentId: fld_312f2bfebe764a848357fd40d98874c6
-modified: 1650333556183
+modified: 1651013599255
 created: 1649537224721
 url: "{{ _.baseUrl }}/users/search"
 name: Index
@@ -13,7 +13,7 @@ body:
 parameters:
   - id: pair_9bd65cafd6ca43aeb6eb715ab9fdaf21
     name: keyword
-    value: eric A
+    value: eric
     description: ""
 headers:
   - name: Content-Type
