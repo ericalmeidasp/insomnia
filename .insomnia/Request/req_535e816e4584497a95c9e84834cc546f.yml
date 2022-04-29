@@ -1,19 +1,15 @@
-_id: req_a8169e1712e64ffe944aa55f9798aecb
+_id: req_535e816e4584497a95c9e84834cc546f
 type: Request
-parentId: fld_10976b5f07134d428937fae2d0289f0b
-modified: 1651187831976
-created: 1651108186330
-url: "{{ _.baseUrl }}/messages"
-name: Store
+parentId: fld_d12ea6f4b33d44e8b8eb90faf6ea3fb4
+modified: 1651191087217
+created: 1651191073414
+url: "{{ _.baseUrl }}/conversations/1"
+name: Show
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"content": "teste de message 1",
-    	"receiverId": 2
-    }
+  text: ""
 parameters: []
 headers:
   - id: pair_00afd21a4ab34e12aaf47231c7a47555
@@ -24,7 +20,7 @@ headers:
     value: application/json
     id: pair_df536722d04c42ac8ce9baa6d67a2cf0
 authentication: {}
-metaSortKey: -1650366589992.6875
+metaSortKey: -1650365974294.1562
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
