@@ -1,7 +1,7 @@
 _id: req_a8169e1712e64ffe944aa55f9798aecb
 type: Request
 parentId: fld_10976b5f07134d428937fae2d0289f0b
-modified: 1651187831976
+modified: 1651539900170
 created: 1651108186330
 url: "{{ _.baseUrl }}/messages"
 name: Store
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"content": "teste de message 1",
-    	"receiverId": 2
+    	"receiverId": 1
     }
 parameters: []
 headers:

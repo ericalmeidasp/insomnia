@@ -1,10 +1,10 @@
-_id: req_a6253cb3484b43508a8bf7856cbc7283
+_id: req_bb45fd99901041e892be2a28d69baffd
 type: Request
 parentId: fld_fd6ea0b44e584053ae65c7b45b888062
-modified: 1653151076136
-created: 1650412153934
-url: "{{ _.baseUrl }}/posts?username=ericalmeida"
-name: Index
+modified: 1653151094154
+created: 1652828080853
+url: "{{ _.baseUrl }}/posts"
+name: Index no username
 description: ""
 method: GET
 body: {}
@@ -15,7 +15,7 @@ headers:
     value: "{{ _.token }}"
     description: ""
 authentication: {}
-metaSortKey: -1650412153934
+metaSortKey: -1650392450581
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

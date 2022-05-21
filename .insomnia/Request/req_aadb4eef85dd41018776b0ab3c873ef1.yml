@@ -1,0 +1,46 @@
+_id: req_aadb4eef85dd41018776b0ab3c873ef1
+type: Request
+parentId: fld_8a02ae7522f54b3b9ab3b70eab3bb38f
+modified: 1651794733415
+created: 1651539760407
+url: "{{ _.baseUrl }}/chat"
+name: Inara
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_91ddccd0c87e44879601df7dab335a2b
+    name: conversationId
+    value: "1"
+    description: ""
+  - id: pair_8d7e24dba0a445958389b553670a1909
+    name: userId
+    value: "2"
+    description: ""
+  - id: pair_82d01a9d48f34f938027a2e6ff3c5268
+    name: token
+    value: Mg._HiKhN05Ld254-7yCjsg0Xbei4EnKCmE63OHA7kwDcOtPCMvNPMj7ZRTJ-6L
+    description: ""
+  - id: pair_cafacb740f6f42f3ae32871c661750c6
+    name: receiverId
+    value: "1"
+    description: ""
+headers:
+  - id: pair_00afd21a4ab34e12aaf47231c7a47555
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_df536722d04c42ac8ce9baa6d67a2cf0
+authentication: {}
+metaSortKey: -1649115693297
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
