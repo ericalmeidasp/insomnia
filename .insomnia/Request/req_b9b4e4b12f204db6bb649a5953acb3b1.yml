@@ -1,7 +1,7 @@
 _id: req_b9b4e4b12f204db6bb649a5953acb3b1
 type: Request
 parentId: fld_fd6ea0b44e584053ae65c7b45b888062
-modified: 1651871035402
+modified: 1653359114215
 created: 1650412475831
 url: "{{ _.baseUrl }}/posts"
 name: Store
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"description": "Postagem do meu amor"
+    	"description": "Postagem do meu amor testando novo"
     }
 parameters: []
 headers:

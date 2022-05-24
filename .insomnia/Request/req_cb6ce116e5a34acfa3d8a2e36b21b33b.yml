@@ -1,7 +1,7 @@
 _id: req_cb6ce116e5a34acfa3d8a2e36b21b33b
 type: Request
 parentId: fld_9681777c548d40f5bf7a837d9f50f67a
-modified: 1650934358878
+modified: 1653360901393
 created: 1650930080881
 url: "{{ _.baseUrl }}/reactions"
 name: Update
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"type": "haha",
-    	"postId": 1
+    	"type": "love",
+    	"postId": 8
     }
 parameters: []
 headers:

@@ -1,9 +1,9 @@
 _id: req_67f11e411fc14cceb96494fcfc110d2b
 type: Request
 parentId: fld_5643d285b5a148a1a23868609aea331c
-modified: 1650927865037
+modified: 1653359125406
 created: 1650417777847
-url: "{{ _.baseUrl }}/posts/1/media"
+url: "{{ _.baseUrl }}/posts/8/media"
 name: Store
 description: ""
 method: POST
@@ -15,7 +15,7 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: C:\Users\erica\Downloads\zoe.png
+      fileName: C:\Users\erica\Pictures\Perfil.JPG
 parameters: []
 headers:
   - id: pair_00afd21a4ab34e12aaf47231c7a47555
