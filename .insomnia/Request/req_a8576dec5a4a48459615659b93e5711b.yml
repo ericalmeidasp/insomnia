@@ -1,7 +1,7 @@
 _id: req_a8576dec5a4a48459615659b93e5711b
 type: Request
 parentId: fld_4495f3a7a3d84887b5809d4a27436447
-modified: 1653359082402
+modified: 1653872383282
 created: 1649205992027
 url: "{{ _.baseUrl }}/users/avatar"
 name: Update
@@ -15,7 +15,7 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: C:\Users\erica\Pictures\Perfil.JPG
+      fileName: C:\Users\erica\Downloads\inara.jpg
 parameters: []
 headers:
   - name: Content-Type

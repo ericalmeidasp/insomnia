@@ -1,7 +1,7 @@
 _id: req_2ed7cbd45d2d4e95a14fef2abad99cb0
 type: Request
 parentId: fld_bf484896406943b09e98e9ebd2de7e46
-modified: 1653361228458
+modified: 1654220995578
 created: 1650642375734
 url: "{{ _.baseUrl }}/comments"
 name: Store
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"content": "teste de comment 3",
-    	"postId": "6"
+    	"postId": "4"
     }
 parameters: []
 headers:

@@ -1,17 +1,17 @@
-_id: env_57a3ca8aa29a4627b332c44b2a050648
+_id: env_71f79f1a7ec04193bee810b7dbf0ab31
 type: Environment
 parentId: env_34995ee874ce29173af19c0a1d466393b55bb1f1
-modified: 1653608741827
-created: 1649115720814
-name: Development
+modified: 1653608744449
+created: 1653608715942
+name: Production
 data:
-  baseUrl: http://127.0.0.1:3333
+  baseUrl: https://eric-fb-api.herokuapp.com
   token: bearer {% response 'body', 'req_69e9213858004ddc8b26e7c972ac9039',
     'b64::JC50b2tlbg==::46b', 'never', 60 %}
 dataPropertyOrder:
   "&":
     - baseUrl
     - token
-color: "#01e409"
+color: "#0501e4"
 isPrivate: false
-metaSortKey: 1649115720814
+metaSortKey: 1651016901530.5
